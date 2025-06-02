@@ -1,0 +1,48 @@
+:root {
+    --bs-primary: #151E3F;
+    --bs-secondary: #3056D3;
+    --bs-success: #030027;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-offwhite: #F2F3D9;
+}
+
+/* Primary button styles */
+.btn.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    opacity: 0.9;
+}
+
+/* Secondary button styles */
+.btn.btn-secondary {
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-secondary);
+    color: var(--bs-dark);
+}
+
+/* Success text color */
+.text-success {
+    color: var(--bs-success) !important;
+}
+
+/* Outline primary button styles */
+.btn.btn-outline-primary {
+    color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn.btn-outline-primary:hover,
+.btn.btn-outline-primary:focus,
+.btn.btn-outline-primary:active {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    color: var(--bs-light);
+}
